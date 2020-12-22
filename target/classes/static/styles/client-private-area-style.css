@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+html {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  /*background-color: #F4EEA8; yellow-gray*/
+}
+
+header {
+  font-size: 20px;
+  padding: 0px 60px;  
+  /* text-align: center; */
+  color: #331A75;
+  color: #721D0C;
+}
+
+
+main{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+form {
+  /* Р Р°СЃРїРѕР»РѕР¶РёРј С„РѕСЂРјСѓ РїРѕ С†РµРЅС‚СЂСѓ СЃС‚СЂР°РЅРёС†С‹ */
+  margin: 0 auto;
+  width: 400px;
+  /* РћРїСЂРµРґРµР»РёРј РєРѕРЅС‚СѓСЂ С„РѕСЂРјС‹ *//* 
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em; */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* РћРїСЂРµРґРµР»РёРј СЂР°Р·РјРµСЂ Рё РІС‹СЂР°РІРЅРёРІР°РЅРёРµ */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input, 
+textarea {
+
+  /* РћРїСЂРµРґРµР»РёРј СЂР°Р·РјРµСЂ РїРѕР»РµР№ */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* РЎС‚РёР»РёР·СѓРµРј РіСЂР°РЅРёС†С‹ РїРѕР»РµР№ */
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  /* Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РїРѕРґСЃРІРµС‚РєР° РґР»СЏ СЌР»РµРјРµРЅС‚РѕРІ РІ С„РѕРєСѓСЃРµ */
+  border-color: #000;
+}
+
+textarea {
+  /* Р’С‹СЂРѕРІРЅРёРј РјРЅРѕРіРѕСЃС‚СЂРѕС‡РЅС‹Рµ С‚РµРєСЃС‚РѕРІС‹Рµ РїРѕР»СЏ СЃ РёС… С‚РµРєСЃС‚Р°РјРё-РїРѕРґСЃРєР°Р·РєР°РјРё */
+  vertical-align: top;
+
+  /* РџСЂРµРґРѕСЃС‚Р°РІРёРј РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІРѕ РґР»СЏ РІРІРѕРґР° С‚РµРєСЃС‚Р° */
+  height: 5em;
+}
+
+.button {
+  /* Р’С‹СЂРѕРІРЅРёРј РєРЅРѕРїРєРё СЃ РёС… С‚РµРєСЃС‚Р°РјРё-РїРѕРґСЃРєР°Р·РєР°РјРё */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* Р­С‚РѕС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РІРЅРµС€РЅРёР№ РѕС‚СЃС‚СѓРї РїСЂРёРјРµСЂРЅРѕ СЂР°РІРµРЅ СЂР°СЃСЃС‚РѕСЏРЅРёСЋ
+     РјРµР¶РґСѓ С‚РµРєСЃС‚Р°РјРё-РїРѕРґСЃРєР°Р·РєР°РјРё Рё С‚РµРєСЃС‚РѕРІС‹РјРё РїРѕР»СЏРјРё */
+  margin-left: .5em;
+}
+
+
+@media (max-width: 1000px) {
+	header {
+	  font-size: 10px;
+	  padding: 0px 60px;  
+	  /* text-align: center; */
+	  color: #331A75;
+	  color: #721D0C;
+	}
+}
+

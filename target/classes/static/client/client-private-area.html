@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Maxim Rabets">
+		<title>Periodicals: private area</title>
+		<link href="../styles/client-private-area-style.css" rel="stylesheet" type="text/css">
+		<link href="../styles/footer-style.css" rel="stylesheet" type="text/css">
+		<link href="../styles/button.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+		<link rel="shortcut icon" href="../images/newspaper1.png">
+		<script src="../scripts/client-private-area.js"></script>
+	</head>
+
+	<body>
+	
+		<header>
+			<h1>Your private area</h1>
+		</header>
+		
+		<main>
+			<a href="../index.html">Main</a>
+			<button id="logout">Log out</button>
+			<button id="delete">Delete account</button>
+			<form id="user data form" action="/register" method="post" enctype="application/x-www-form-urlencoded">
+				<fieldset>
+				<legend>Your data</legend>
+					<ul>
+						<li>
+						  <label for="name">Name: </label>
+						  <input type="text" id="name" name="name" required>
+						  <button type="submit" id="name button">Change</button>
+						</li>
+						<li>
+						  <label for="surname">Surname: </label>
+						  <input type="text" id="surname" name="surname" required>
+						  <button type="submit" id="surname button">Change</button>
+						</li>
+						<li>
+						  <label for="mail">E-mail: </label>
+						  <input type="email" id="mail" name="login" required readonly>
+						</li>
+						<li>
+						  <label for="address">Address: </label>
+						  <textarea id="address" name="address" required></textarea>
+						  <button type="submit"  id="address button">Change</button>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+			<p id="message"></p>
+			
+		</main>
+		
+		<footer>
+			<p>This web-site was created with help of <a
+				href="https://developer.mozilla.org/ru/docs/Learn"
+				title="Here you can find a lot of information about Web and creating web-sites"
+				target="_blank">Mozilla's tutorials.</a></p>
+			<address>
+				<p>If you want to ask some questions e-mail me at 
+					<a href="mailto:rabetsmaxim@gmail.com?&subject=Periodicals">rabetsmaxim@gmail.com</a></p>
+			</address>
+			<time datetime="2020-11-27T15:35">27.11.2020 15:35</time>
+		</footer>
+	
+	</body>
+</html>
