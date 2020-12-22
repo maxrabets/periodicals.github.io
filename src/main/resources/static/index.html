@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Maxim Rabets">
+	<meta name="description" content="My first site. It was created as a task for my study.
+		It's a simulation of a system which helps people to subscribe on different periodicals.">
+	<meta property="og:title" content="My first site. It was created as a task for my study.
+		It's a simulation of a system which helps people to subscribe on different periodicals.">
+	<meta property="og:image" content="images/newspaper1.png">
+	<meta property="og:image" content="images/private-area-logo.png">	
+	<meta property="og:site_name" content="Periodicals">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- og:url og:type -->
+    <title>Periodicals</title>
+	<link href="styles/basic-style.css" rel="stylesheet" type="text/css">
+	<link href="styles/footer-style.css" rel="stylesheet" type="text/css">
+	<link href="styles/header-style.css" rel="stylesheet" type="text/css">
+	<link href="styles/navigation-menu-style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+	<link rel="shortcut icon" href="images/newspaper1.png">
+ </head>
+  
+  <body>
+  
+	<header>
+      <h1>Periodicals</h1>
+    </header>
+	
+	<nav>
+		<ul class="menu">
+			<li>Main</li>
+			<li><a href="newspapers.html">Newspapers</a></li>
+			<li><a href="magazines.html">Magazines</a></li>
+			<li><a href="calenders.html">Calenders</a></li>
+			<li><a href="other.html">Other</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><ul class="authentication">
+				<li><a href="private-area"><img src="images/private-area-logo.png" alt="Private area"></a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="registration.html">Registration</a></li>
+			</ul></li>
+		</ul>
+
+        <form class="search">
+			<input type="search" name="q" placeholder="Search query">
+			<input type="submit" value="Go!">
+        </form>
+		
+		<!-- <form class="authentication">
+			<input type="button" name="q" placeholder="Search query">
+			<input type="button" value="Go!">
+        </form> -->
+    </nav>
+	
+	<main>
+		<article>
+			<h2>Periodicals</h2>
+			<img src="images/newspaper1.png" alt="Newspaper logo">
+				<!-- srcset -->
+				<!-- sizes -->
+			<p id="list_of_periodicals">Periodicals are:</p>
+			<ul>
+				<li>newspapers</li>
+				<li>magazines</li>
+				<li>other</li>
+			</ul>
+		</article>
+	</main>
+	
+	<footer>
+	<p>This web-site was created with help of <a
+		href="https://developer.mozilla.org/ru/docs/Learn"
+		title="Here you can find a lot of information about Web and creating web-sites"
+		target="_blank">Mozilla's tutorials.</a></p>
+	<address>
+		<p>If you want to ask some questions e-mail me at 
+			<a href="mailto:rabetsmaxim@gmail.com?&subject=Periodicals">rabetsmaxim@gmail.com</a></p>
+	</address>
+	<time datetime="2020-11-27T15:35">27.11.2020 15:35</time>
+	</footer>
+	<!-- <button>Change user</button> -->
+	<!-- <script src="scripts/main.js"></script> -->
+  </body>
+</html> 
